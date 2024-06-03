@@ -1,3 +1,5 @@
+# Local to found the actions - https://github.com/marketplace
+
 name: CI-CD
 on: 
     push: 
@@ -21,7 +23,7 @@ jobs:
                 context: ./src
                 file: ./src/Dockerfile
                 push: true
+                # Incrementa tag baseado no numero do job
                 tags: |
-                    : # Incrementa tag baseado no numero do job
                     jhonthan/marvel-dex:v${{ github.run_number }}
                     jhonthan/marvel-dex:latest
