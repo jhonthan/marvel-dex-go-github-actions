@@ -1,4 +1,3 @@
-
 ## 💡 Idea
 In this project the idea is based in the code in Go get the names and informations about the Marvel Comics using the Marvel API.
 
