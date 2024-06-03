@@ -26,6 +26,6 @@ In this project the idea is based in the code in Go get the names and informatio
 
 ### 📂 Diagram
 
-![Diagrams](./diagrams/pipeline.drawio.png)
+![Diagrams](./diagrams/Marvel-Dex-AzureWebApp.png)
 
 Code Based in the repo: (https://github.com/KubeDev/marvel-dex)
