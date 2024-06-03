@@ -22,6 +22,6 @@ jobs:
                 file: ./src/Dockerfile
                 push: true
                 tags: |
-                    # Incrementa tag baseado no numero do job
+                    : # Incrementa tag baseado no numero do job
                     jhonthan/marvel-dex:v${{ github.run_number }}
                     jhonthan/marvel-dex:latest
